@@ -1,0 +1,21 @@
+<svg width="59" height="54" viewBox="0 0 59 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_1050_939)">
+<path d="M54.4985 23C54.4985 40.1 48.9985 45.5 29.4985 45.5C9.99855 45.5 4.49854 40.1 4.49854 23C4.49854 5.9 9.99855 0.5 29.4985 0.5C48.9985 0.5 54.4985 5.9 54.4985 23Z" fill="#F8F9FA"/>
+</g>
+<path d="M21.165 23.5002C21.165 20.5523 21.165 19.0783 22.0424 18.0942C22.1827 17.9369 22.3374 17.7913 22.5046 17.6592C23.5501 16.8335 25.1162 16.8335 28.2484 16.8335H30.7484C33.8805 16.8335 35.4466 16.8335 36.4921 17.6592C36.6594 17.7913 36.814 17.9369 36.9544 18.0942C37.8317 19.0783 37.8317 20.5523 37.8317 23.5002C37.8317 26.4481 37.8317 27.922 36.9544 28.9061C36.814 29.0635 36.6594 29.209 36.4921 29.3411C35.4466 30.1668 33.8805 30.1668 30.7484 30.1668H28.2484C25.1162 30.1668 23.5501 30.1668 22.5046 29.3411C22.3374 29.209 22.1827 29.0635 22.0424 28.9061C21.165 27.922 21.165 26.4481 21.165 23.5002Z" stroke="#192861" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M27.832 26.8335H29.082" stroke="#192861" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M31.582 26.8335H34.4987" stroke="#192861" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21.165 21H37.8317" stroke="#192861" stroke-linejoin="round"/>
+<defs>
+<filter id="filter0_d_1050_939" x="0.498535" y="0.5" width="58" height="53" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.972549 0 0 0 0 0.976471 0 0 0 0 0.980392 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1050_939"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1050_939" result="shape"/>
+</filter>
+</defs>
+</svg>
