@@ -124,7 +124,7 @@ const GalleryStyle = styled.div`
     justify-content: center;
     align-items: center;
     gap: 30px;
-
+    width: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
     scroll-behavior: smooth;
