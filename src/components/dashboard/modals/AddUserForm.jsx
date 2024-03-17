@@ -36,13 +36,13 @@ const AddUserForm = ({ triggerReload }) => {
     http
       .post(`${env.clinton_homes_base_url}/admin/create-user`, formdata)
       .then((response) => {
-        // console.log(response);
+        console.log(response);
         toast.success("User Added");
         clearFields();
         setAddingUser(false);
       })
       .catch((error) => {
-        // console.log(error.response.data.message);
+        console.log(error);
         toast.error(error?.response?.data?.message || "An Error Occured");
       });
 
