@@ -21,7 +21,7 @@ const AddUserForm = ({ triggerReload }) => {
     setFirstName("");
     setLastName("");
     setEmail("");
-    phoneNumber("");
+    setPhoneNumber("");
   };
 
   const addUser = () => {
@@ -44,6 +44,7 @@ const AddUserForm = ({ triggerReload }) => {
       .catch((error) => {
         console.log(error);
         toast.error(error?.response?.data?.message || "An Error Occured");
+        setAddingUser(false);
       });
 
     // console.log(formdata);
