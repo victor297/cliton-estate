@@ -290,7 +290,7 @@ const HomeStyle = styled.div`
       .success-stats {
         gap: 30px;
         padding: 30px;
-
+        width: 100%;
         h3 {
           font-weight: 400;
           font-size: 20px;
