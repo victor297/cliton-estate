@@ -178,6 +178,7 @@ const FooterStyle = styled.footer`
     }
 
     .layer-2 {
+      gap: 10px;
       .vision {
         .footer-text {
         }
