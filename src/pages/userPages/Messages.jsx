@@ -25,6 +25,14 @@ const Messages = () => {
     setReloadCount((prevKey) => prevKey + 1);
   };
 
+  useEffect(() => {
+    const intervalId = setInterval(triggerReload, 5000); // 5000 milliseconds = 5 seconds
+
+    return () => {
+      clearInterval(intervalId); // Cleanup the interval on component unmount
+    };
+  }, []);
+
   const updateRoomId = (id) => {
     console.log(id);
     setRoomId(id);

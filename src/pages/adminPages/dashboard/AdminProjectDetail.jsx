@@ -141,6 +141,7 @@ const AdminProjectDetail = () => {
       .then((response) => {
         toast.success("Project marked Completed");
         setUpdatingProject(false);
+        triggerReload();
       })
       .catch((error) => {
         console.log(error);

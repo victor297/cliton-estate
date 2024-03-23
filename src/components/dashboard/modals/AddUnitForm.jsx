@@ -126,6 +126,7 @@ const AddUnitForm = ({ projectId, triggerReload }) => {
       <select
         name=""
         id=""
+        required
         value={paymentPlan}
         style={{
           width: "100%",
@@ -139,6 +140,7 @@ const AddUnitForm = ({ projectId, triggerReload }) => {
           dispatch(updateAddUnitData({ paymentPlan: e.target.value }))
         }
       >
+        <option>Select plan</option>
         <option value="installmental">installmental</option>
         <option value="full">full</option>
       </select>
