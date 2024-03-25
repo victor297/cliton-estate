@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="vision ">
           <h5 className="footer-subtitle">The vision</h5>
           <p className="footer-text">
-            <b>Address:</b> West link court 8, palm groove close, Iygokun GRA
+            <b>Address:</b>West link court 8, palm groove close, Iygokun GRA
             Ibadan, Oyo.
           </p>
           <p className="footer-text">
