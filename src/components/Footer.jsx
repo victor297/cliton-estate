@@ -26,13 +26,13 @@ const Footer = () => {
       </div>
       <div className="layer-2">
         <div className="vision ">
-          <h5 className="footer-subtitle">The vision</h5>
+          {/* <h5 className="footer-subtitle">The vision</h5> */}
           <p className="footer-text">
-            <b>Address:</b>West link court 8, palm groove close, Iygokun GRA
+            <b>Address:</b> West link court 8, palm groove close, Iygokun GRA
             Ibadan, Oyo.
           </p>
           <p className="footer-text">
-            <b>Mobile:</b> Lorem ipsum
+            <b>Mobile:</b> 0813 487 7860
           </p>
           <p className="footer-text">
             <b>Mail:</b> info@clintondevelopers.com

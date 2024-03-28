@@ -123,7 +123,7 @@ const Nav = styled.nav`
     }
 
     .menu-list {
-      gap: 12px;
+      gap: 8px;
       cursor: pointer;
 
       .menu-item {
