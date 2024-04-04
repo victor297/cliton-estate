@@ -30,11 +30,16 @@ const AdminProjects = () => {
               </h3>
             </div>
           ) : projectList.length === 0 ? (
-            <div style={{ marginTop: "50px" }}>
-              <h3 style={{ textAlign: "center", color: "#e8e8e8" }}>
-                No Projects Available
-              </h3>
-            </div>
+            <InfoContainer
+              title="Ongoing Projects"
+              action={() => navigate("/admin-dashboard/projects/create")}
+            >
+              <div style={{ marginTop: "50px" }}>
+                <h3 style={{ textAlign: "center", color: "#e8e8e8" }}>
+                  No Projects Available
+                </h3>
+              </div>
+            </InfoContainer>
           ) : null}
 
           {projectList.length > 0 && (
