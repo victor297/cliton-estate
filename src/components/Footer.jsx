@@ -9,6 +9,7 @@ import twitter_icon from "../assets/home/twitter_icon.svg";
 import Background from "./websiste/Background";
 
 import { Link, useNavigate } from "react-router-dom";
+import { WhatsApp } from "@mui/icons-material";
 
 const Footer = () => {
   const navigate = useNavigate();
@@ -38,7 +39,9 @@ const Footer = () => {
             <b>Mail:</b> info@clintonsdevelopers.com
           </p>
           <p className="footer-text">
-            <b>Whatsapp</b> <Link>https://wa.me/+2348134877860</Link>
+            <b>Whatsapp: </b>
+            <WhatsApp color="green" fontSize="24" />
+            <Link to={"https://wa.me/+2348134877860"}>Chat Us </Link>
           </p>
         </div>
         <div className="about">
