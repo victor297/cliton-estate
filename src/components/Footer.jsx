@@ -40,7 +40,7 @@ const Footer = () => {
           </p>
           <p className="footer-text">
             <WhatsApp color="green" fontSize="45" />
-            <Link to={"https://wa.me/+2348134877860"}>Chat Us </Link>
+            <Link to={"https://wa.me/+2348134877860"}> Chat Us </Link>
           </p>
         </div>
         <div className="about">
