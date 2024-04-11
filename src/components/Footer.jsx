@@ -29,7 +29,7 @@ const Footer = () => {
         <div className="vision ">
           {/* <h5 className="footer-subtitle">The vision</h5> */}
           <p className="footer-text">
-            <b>Address:</b> Westlink clinton's court 8, Palm groove close,
+            <b>Address:</b> Westlink clinton's court, 8, Palm groove close,
             Iyaganku GRA Ibadan, Oyo.
           </p>
           <p className="footer-text">
