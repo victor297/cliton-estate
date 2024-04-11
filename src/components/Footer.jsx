@@ -39,8 +39,7 @@ const Footer = () => {
             <b>Mail:</b> info@clintonsdevelopers.com
           </p>
           <p className="footer-text">
-            <b>Whatsapp: </b>
-            <WhatsApp color="green" fontSize="24" />
+            <WhatsApp color="green" fontSize="45" />
             <Link to={"https://wa.me/+2348134877860"}>Chat Us </Link>
           </p>
         </div>
