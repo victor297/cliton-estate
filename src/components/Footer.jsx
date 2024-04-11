@@ -28,14 +28,17 @@ const Footer = () => {
         <div className="vision ">
           {/* <h5 className="footer-subtitle">The vision</h5> */}
           <p className="footer-text">
-            <b>Address:</b> West link court 8, palm groove close, Iygokun GRA
-            Ibadan, Oyo.
+            <b>Address:</b> Westlink clinton's court 8, Palm groove close,
+            Iyaganku GRA Ibadan, Oyo.
           </p>
           <p className="footer-text">
-            <b>Mobile:</b> 0813 487 7860
+            <b>Mobile:</b> +234 813 487 7860
           </p>
           <p className="footer-text">
-            <b>Mail:</b> info@clintondevelopers.com
+            <b>Mail:</b> info@clintonsdevelopers.com
+          </p>
+          <p className="footer-text">
+            <b>Whatsapp</b> <Link>https://wa.me/+2348134877860</Link>
           </p>
         </div>
         <div className="about">
